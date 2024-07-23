@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<scenario>
+    <looks>
+		<look name="ovning" gray="1.0" roughness="1.0" texture="textures/ovning.jpg"/>
+	</looks>
+
+    <static name="P1" type="model">
+		<physical>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_corner2_phy.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</physical>
+		<visual>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_corner2.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</visual>
+		<material name="Plastic"/>
+		<mass value="0.5"/>
+		<look name="ovning"/>
+		<world_transform rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+	</static>
+
+	<static name="P2" type="model">
+		<physical>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_straight_phy.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</physical>
+		<visual>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_straight.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</visual>
+		<material name="Plastic"/>
+		<mass value="0.5"/>
+		<look name="ovning"/>
+		<world_transform rpy="0.0 0.0 0.0" xyz="0.0 1.18 0.0"/>
+	</static>
+
+	<static name="P3" type="model">
+		<physical>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_corner_phy.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</physical>
+		<visual>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_corner.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</visual>
+		<material name="Plastic"/>
+		<mass value="0.5"/>
+		<look name="ovning"/>
+		<world_transform rpy="0.0 0.0 0.0" xyz="0.0 2.36 0.0"/>
+	</static>
+
+	<static name="P4" type="model">
+		<physical>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_corner2_phy.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</physical>
+		<visual>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_corner2.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</visual>
+		<material name="Plastic"/>
+		<mass value="0.5"/>
+		<look name="ovning"/>
+		<world_transform rpy="0.0 0.0 ${pi}" xyz="0.775 2.36 0.0"/>
+	</static>
+
+	<static name="P5" type="model">
+		<physical>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_s_phy.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</physical>
+		<visual>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_s.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</visual>
+		<material name="Plastic"/>
+		<mass value="0.5"/>
+		<look name="ovning"/>
+		<world_transform rpy="0.0 0.0 ${-pi/2.0}" xyz="0.98 1.383 0.0"/>
+	</static>
+
+	<static name="P6" type="model">
+		<physical>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_corner_phy.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</physical>
+		<visual>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_corner.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</visual>
+		<material name="Plastic"/>
+		<mass value="0.5"/>
+		<look name="ovning"/>
+		<world_transform rpy="0.0 0.0 ${pi}" xyz="1.569 1.195 0.0"/>
+	</static>
+
+	<static name="P7" type="model">
+		<physical>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_straight_phy.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</physical>
+		<visual>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_straight.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</visual>
+		<material name="Plastic"/>
+		<mass value="0.5"/>
+		<look name="ovning"/>
+		<world_transform rpy="0.0 0.0 ${-pi/2.0}" xyz="2.155 1.79 0.0"/>
+	</static>
+
+	<static name="P8" type="model">
+		<physical>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_straight_phy.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</physical>
+		<visual>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_straight.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</visual>
+		<material name="Plastic"/>
+		<mass value="0.5"/>
+		<look name="ovning"/>
+		<world_transform rpy="0.0 0.0 ${-pi}" xyz="2.74 1.197 0.0"/>
+	</static>
+
+	<static name="P9" type="model">
+		<physical>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_corner_phy.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</physical>
+		<visual>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_corner.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</visual>
+		<material name="Plastic"/>
+		<mass value="0.5"/>
+		<look name="ovning"/>
+		<world_transform rpy="0.0 0.0 0.0" xyz="2.357 0.397 0.0"/>
+	</static>
+
+	<static name="P10" type="model">
+		<physical>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_s_phy.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</physical>
+		<visual>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_s.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</visual>
+		<material name="Plastic"/>
+		<mass value="0.5"/>
+		<look name="ovning"/>
+		<world_transform rpy="0.0 0.0 ${pi}" xyz="1.969 -0.403 0.0"/>
+	</static>
+
+	<static name="P11" type="model">
+		<physical>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_corner2_phy.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</physical>
+		<visual>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_corner2.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</visual>
+		<material name="Plastic"/>
+		<mass value="0.5"/>
+		<look name="ovning"/>
+		<world_transform rpy="0.0 0.0 0.0" xyz="1.191 -0.403 0.0"/>
+	</static>
+
+	<static name="P12" type="model">
+		<physical>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_corner2_phy.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</physical>
+		<visual>
+			<mesh filename="$(find Handson_Planning)/resources/meshes/ovning_corner2.obj" scale="1.0"/>
+			<origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+		</visual>
+		<material name="Plastic"/>
+		<mass value="0.5"/>
+		<look name="ovning"/>
+		<world_transform rpy="0.0 0.0 ${-pi/2.0}" xyz="0.594 0.185 0.0"/>
+	</static>
+</scenario>

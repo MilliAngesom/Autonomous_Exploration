@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240723-1406-Experimental"
+	Name="MilliPC"
+	Generator="ctest-3.16.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="10.5.0"
+	OSName="Linux"
+	Hostname="MilliPC"
+	OSRelease="5.15.0-116-generic"
+	OSVersion="#126~20.04.1-Ubuntu SMP Mon Jul 1 15:40:07 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="154"
+	ProcessorCacheSize="24576"
+	NumberOfLogicalCPU="20"
+	NumberOfPhysicalCPU="14"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15650"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2700"
+	>
+	<Testing>
+		<StartDateTime>Jul 23 16:06 CEST</StartDateTime>
+		<StartTestTime>1721743585</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jul 23 16:06 CEST</EndDateTime>
+		<EndTestTime>1721743585</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

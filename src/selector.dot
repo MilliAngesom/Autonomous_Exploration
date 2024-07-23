@@ -1,0 +1,37 @@
+digraph pastafarianism {
+ordering=out;
+graph [fontname="times-roman"];
+node [fontname="times-roman"];
+edge [fontname="times-roman"];
+Selector [fillcolor=cyan, fontcolor=black, fontsize=9, label="Ⓜ Selector", shape=octagon, style=filled];
+Sequence [fillcolor=orange, fontcolor=black, fontsize=9, label="Ⓜ Sequence", shape=box, style=filled];
+Selector -> Sequence;
+Explore [fillcolor=gray, fontcolor=black, fontsize=9, label=Explore, shape=ellipse, style=filled];
+Sequence -> Explore;
+"Sequence*" [fillcolor=orange, fontcolor=black, fontsize=9, label="Sequence*", shape=box, style=filled];
+Sequence -> "Sequence*";
+Inverter [fillcolor=ghostwhite, fontcolor=black, fontsize=9, label=Inverter, shape=ellipse, style=filled];
+"Sequence*" -> Inverter;
+Perceive [fillcolor=gray, fontcolor=black, fontsize=9, label=Perceive, shape=ellipse, style=filled];
+Inverter -> Perceive;
+Move_to_Explore [fillcolor=gray, fontcolor=black, fontsize=9, label=Move_to_Explore, shape=ellipse, style=filled];
+"Sequence*" -> Move_to_Explore;
+"Sequence**" [fillcolor=orange, fontcolor=black, fontsize=9, label="Ⓜ Sequence**", shape=box, style=filled];
+Selector -> "Sequence**";
+Move_to_Pick [fillcolor=gray, fontcolor=black, fontsize=9, label=Move_to_Pick, shape=ellipse, style=filled];
+"Sequence**" -> Move_to_Pick;
+"Sequence***" [fillcolor=orange, fontcolor=black, fontsize=9, label="Ⓜ Sequence***", shape=box, style=filled];
+"Sequence**" -> "Sequence***";
+Pick_1 [fillcolor=gray, fontcolor=black, fontsize=9, label=Pick_1, shape=ellipse, style=filled];
+"Sequence***" -> Pick_1;
+Pick_2 [fillcolor=gray, fontcolor=black, fontsize=9, label=Pick_2, shape=ellipse, style=filled];
+"Sequence***" -> Pick_2;
+Move_to_Place [fillcolor=gray, fontcolor=black, fontsize=9, label=Move_to_Place, shape=ellipse, style=filled];
+"Sequence**" -> Move_to_Place;
+"Sequence****" [fillcolor=orange, fontcolor=black, fontsize=9, label="Ⓜ Sequence****", shape=box, style=filled];
+"Sequence**" -> "Sequence****";
+Place_1 [fillcolor=gray, fontcolor=black, fontsize=9, label=Place_1, shape=ellipse, style=filled];
+"Sequence****" -> Place_1;
+Place_2 [fillcolor=gray, fontcolor=black, fontsize=9, label=Place_2, shape=ellipse, style=filled];
+"Sequence****" -> Place_2;
+}

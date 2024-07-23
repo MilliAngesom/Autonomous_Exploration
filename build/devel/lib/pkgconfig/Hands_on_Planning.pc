@@ -1,0 +1,8 @@
+prefix=/home/milli/catkin_ws/src/Hands_on_Planning/build/devel
+
+Name: Hands_on_Planning
+Description: Description of Hands_on_Planning
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
