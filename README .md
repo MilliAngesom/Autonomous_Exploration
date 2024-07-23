@@ -1,4 +1,4 @@
-# Handson Planning
+# Autonomous Exploration
 
 The aim of this project is to enable a robot to autonomously explore previously unexplored areas and manipulate objects with its arm using a task priority algorithm.
 
@@ -108,3 +108,11 @@ The code performs the following tasks:
 6. *openThreeD_final.py* implements the ICP algorithm for point cloud registration using the Open3D library. The ICP algorithm aims to align two point clouds by finding the optimal rigid transformation that minimizes the distance between corresponding scans.
 
 7. *wrap_angle_final.py* wraps an angle ang between -π and π.
+
+## VIDEO DEMO:
+1. [RRT* Visualisation](https://youtu.be/fZltKa4dIb4)
+2. [Exploration Algorithm](https://youtu.be/qE3l-_JUnSA)
+3. [Autonomous Exploration Real Robot](https://youtu.be/YqAs7LerJx0)
+
+## Paper
+The detailed explanation of the project can be accessed [here](https://drive.google.com/file/d/1c_-AcfYp6NJsLPngxOh2b0vQFReeB8I_/view).
